@@ -10,3 +10,4 @@
 2019-04-15 15:27:14,689 [Worker-7: Fetching remote refs from https://www.github.com/jjune88/tests] INFO  o.e.jgit.transport.TransportHttp - URI 'https://www.github.com/jjune88/tests': following HTTP redirect #0  https://www.github.com/jjune88/tests/ -> https://github.com/jjune88/tests.git/
 2019-04-15 15:32:33,112 [ModalContext] INFO  o.e.jgit.transport.TransportHttp - URI 'https://www.github.com/jjune88/tests': following HTTP redirect #0  https://www.github.com/jjune88/tests/ -> https://github.com/jjune88/tests.git/
 2019-04-15 15:32:48,473 [ModalContext] INFO  o.e.jgit.transport.TransportHttp - URI 'https://www.github.com/jjune88/tests': following HTTP redirect #0  https://www.github.com/jjune88/tests/ -> https://github.com/jjune88/tests.git/
+2019-04-22 11:08:17,797 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
