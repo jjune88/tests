@@ -16,16 +16,16 @@
 > CentOS-7-x86_64-DVD-1810.iso 이미지 [Centos다운](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1810.iso)
 
 ## virt-install을 이용한 설치법 
-command line
-virt-install --name vm \
---os-type=Linux \
---memory=2048 \
---vcpus 2 \ 
---disk size=10 \
---graphics none \
---location /home/june/Downloads/CentOS-7-x86_64-DVD-1810.iso \
---extra-args console=ttyS0 \
---debug
+### command line
+> virt-install --name vm \
+> --os-type=Linux \
+> --memory=2048 \
+> --vcpus 2 \ 
+> --disk size=10 \
+> --graphics none \
+> --location /home/june/Downloads/CentOS-7-x86_64-DVD-1810.iso \
+> --extra-args console=ttyS0 \
+> --debug
 
 ### command line 설명
 > virt-install --name vm \
