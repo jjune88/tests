@@ -37,9 +37,9 @@
 
 # 이미지 
 * 링크와 비슷한데 ! 가 붙습니다.
-```[]안에 대체 텍스트 입력 ()이미지 주소입력 "링크설명"작성
-``` 
-! [me](https://github.com/jjune88/tests/blob/master/june.png)
+* []안에 대체 텍스트 입력 ()이미지 주소입력 "링크설명"작성
+ 
+! (https://github.com/jjune88/tests/blob/master/june.png)
 
 * 사이즈 조절 기능 없음 ```<img width="" height=""></img>```사용한다
 ----
