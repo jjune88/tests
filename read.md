@@ -1,6 +1,5 @@
 # virt-install Centos+ubuntu
-###  준비사항
-#### 실행OS 우분투18.04.2 LTS
+#### KVM 실행OS 우분투18.04.2 LTS 에서 실행
 > KVM 설치 
 >> sudo apt update
 >> sudo apt install qemu qemu-kvm libvir-bin bridge-utils virt-manger
