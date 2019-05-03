@@ -41,6 +41,7 @@
 ``` 
 ![me](https://github.com/jjune88/tests/blob/master/june.png)
 ```
+![me](https://github.com/jjune88/tests/blob/master/june.png)
 * 사이즈 조절 기능 없음 ```<img width="" height=""></img>```사용한다
 ----
 # 표(table)
