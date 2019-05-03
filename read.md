@@ -29,7 +29,7 @@
  --location /home/june/Downloads/CentOS-7-x86_64-DVD-1810.iso \
  --extra-args console=ttyS0 \
  --debug
-
+* 우분투 설치에는 --location 위치를 재설정, --disk sieze=25 로 재설정 하고 나머지 커맨드 동일
 ### command line 설명
 > virt-install --name vm \
  새로운 가상 머신을 만들고 이름은 vm 으로 정하겠다
