@@ -14,8 +14,10 @@
 * GRUB_DISABLE_RECOVERY="true"
 ----------------------------------------------------------------
 * 이렇게 하고 grub2를 다음과 같이 갱신해 줍니다.
-* grub2-mkconfig -O /bootgrub2/grub.cfg 입력해주고 
-* 가상머신을 종료합니다. 
+```
+ grub2-mkconfig -o /boot/grub2/grub.cfg  
+```
+* 입력해 주고 가상머신을 종료합니다. 
 
 * 재부팅후 가상네트워크를 추가 해줍니다. 
 * vm 머신의 우측 클릭 열기를 누르면 running이 아닌 vm 이 열립니다.
