@@ -81,3 +81,19 @@ virt-install --name ccc \
 --location 'http://mirror.kakao.com/centos/7.6.1810/os/x86_64/' \
 --extra-args 'console=ttyS0,115200n8 serial'
 ```
+
+# Ubuntu14.04 mirro 이용해서 설치하기 
+```
+virt-install \
+> --name ubu14 \
+> --ram 1024 \
+> --disk path=/var/lib/libvirt/images/so.qcow2,size=15 \
+> --vcpus 1 \
+> --os-type linux \
+> --os-variant ubuntu14.04 \
+> --network bridge=virbr0 \
+> --graphics none \
+> --console pty,target_type=serial \
+> --location 'http://archive.ubuntu.com/ubuntu/dists/trusty/main/installer-amd64/' \
+> --extra-args 'console=ttyS0,115200n8 serial'
+```
