@@ -26,5 +26,10 @@
   	본인의 버추얼머신을 모르겠다면 "virsh list --all" 로 확인
 * 시작이되면 터미널 창에서 "virsh console 인스턴스 네임"을 적는다.  "virsh console vm" 진행
 
+# vish console 접속 오류일때
+
+```
+sudo service libvirt-bin restart
+```
 
 
