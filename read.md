@@ -67,16 +67,17 @@ virt-install --name vm \
 > --debug
  디버깅 정보 인쇄
 
-#Cent7 mirro 이용해서 설치하기
+# Cent7 mirro 이용해서 설치하기
 
 ```
-virt-install --name cena \
+virt-install --name ccc \ 
 --ram 2048 \
---disk path=/var/lib/libvirt/images/na.qcow2,size=10 \
+--disk path=/var/lib/libvirt/images/cenosvm/ccc.qcow2,size=16 \
 --vcpus 2 \
---os-type linux \
+--os-type linux --os-variant rhel7 \
 --network bridge=virbr0 \
---graphics none --console pty,target_type=serial \
---location 'http://mirror.kakao.com/centos/7.6.1810/os/x86_64/LiveOS/' \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://mirror.kakao.com/centos/7.6.1810/os/x86_64/' \
 --extra-args 'console=ttyS0,115200n8 serial'
 ```
