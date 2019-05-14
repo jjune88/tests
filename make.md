@@ -76,8 +76,8 @@ int main(void)
 ```
 
 > 세개의 파일 hello.c hello.h main.c 중에 .c로 되어 있는 hello.c 와 main.c의 목적 파일을 생성한다.
->> ```gcc -c hello.c```
->> ```gcc -c main.c```
+*  ```gcc -c hello.c```
+*  ```gcc -c main.c```
 * 명령어 설명  gcc 컴파일 -c 기계언어로 hello.c 파일참조
 * 위 명령어 진행하면 hello.o , main.o 두개의 오브젝트파일인 목적파일이 생성된다.
 ==
