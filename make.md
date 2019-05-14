@@ -44,7 +44,8 @@
 
 - vi 편집기를 이용하여 hello.c 파일을 만든다. ``` vi hello.c```
 - hello.c 파일의 내용은 아래와 같다. 
-``` #include <stdio.h>
+``` 
+#include <stdio.h>
 
 int print_hello(void)
 {
@@ -54,7 +55,8 @@ int print_hello(void)
 ```
 - vi 편집기를 이용해서 hello.h 헤더파일을 하나 만든다. ```vi hello.h```
 - hello.h 파일의 내용은 아래와 같다. 
-```#ifndef HELLO_H
+```
+#ifndef HELLO_H
 #define HELLO_H_
 
 int print_hello(void);
@@ -81,7 +83,7 @@ int main(void)
 ==
 ### make 파일 생성한다.
 
-> ```vim Makefile```일 생성한다. m은 대체로 대문자M으로 하는게 좋다고 한다. 
+> ```vim Makefile``` 생성한다. m은 대체로 대문자M으로 하는게 좋다고 한다. 
 * 파일 내용은 아래와 같다.
 ```
 all : hello
