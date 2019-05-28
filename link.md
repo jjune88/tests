@@ -4,4 +4,4 @@
 
 # virt-install text 버전으로 설치
 * [virt-install 메뉴얼](https://github.com/jjune88/tests/blob/master/read.md)
-* [virt-install 영상 우분투](https://asciinema.org/a/LCLb0mUK1gL9iMkA946Q3JvIX)
+* [virt-install 영상 Cent os](https://asciinema.org/a/LCLb0mUK1gL9iMkA946Q3JvIX)
