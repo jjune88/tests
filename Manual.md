@@ -39,5 +39,5 @@
 
 ## 1.시스템 구성
 ![me](https://github.com/jjune88/tests/blob/master/png/system.png)
-<<img src="/img/myImg.png" width="300" height="300">
+<img src="https://github.com/jjune88/tests/blob/master/png/system.png" width="300" height="300">
 
