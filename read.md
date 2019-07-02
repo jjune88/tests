@@ -70,7 +70,8 @@ virt-install --name vm \
 # Cent7 mirro 이용해서 설치하기
 
 ```
-virt-install --name ccc \ 
+virt-install \
+--name ccc \ 
 --ram 2048 \
 --disk path=/var/lib/libvirt/images/cenosvm/ccc.qcow2,size=16 \
 --vcpus 2 \
